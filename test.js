@@ -1,7 +1,7 @@
-var pos{
+/*var pos{
   x=0;
   y=0;
-}
+}*/
 function setup(){
 createCanvas(windowWidth, windowHeight);
 background(200);
