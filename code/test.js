@@ -1,23 +1,31 @@
-var pos{
+var ball{
 x=0;
 y=0;
+vx=4;
+vy=4;
+tam=50;
 }
 
 function setup(){
 createCanvas(windowWidth, windowHeight);
-  pos.x=random(width);
-  pos.y=random(width);
+  ball.x=random(width);
+  ball.y=random(width);
 }
 function draw(){
 background(200);
-ellipse(pos.x,pos.y,20,20);
+ellipse(ball.x,ball.y,ball.tam,ball.tam);
 move();
 checkSides();
 }
 function move(){
-  pos.x+=2;
-  pos.y+=2;
+  ball.x+=ball.vx;
+  ball.y+=ball.vy;
 }
 function checkSides(){
-  
+  if(ball.x>=width||ball.x<=0){
+  ball.vx=-ball.vx;
+  }
+  if(ball.y>=width||ball.y<=0){
+  ball.vy=-ball.vy;
+  }
 }
