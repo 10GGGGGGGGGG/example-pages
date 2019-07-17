@@ -2,8 +2,8 @@ var x=0;
 var y=0;
 var vx=3;
 var vy=3;
-var ancho=400;
-var alto=204;
+var ancho=340;
+var alto=173;
 var img;
 
 function preload() {
@@ -11,8 +11,8 @@ function preload() {
 }
 function setup(){
 createCanvas(windowWidth, windowHeight);
-  x=random(width);
-  y=random(height);
+  x=random(width-ancho);
+  y=random(height-alto);
 }
 function draw(){
 background(200);
@@ -26,9 +26,11 @@ function move(){
 }
 function checkSides(){
   if(x>=width-ancho||x<=0){
+  tint(random(255),random(255),random(255));
   vx=-vx;
   }
   if(y>=height-alto||y<=0){
+  tint(random(255),random(255),random(255));
   vy=-vy;
   }
 }
