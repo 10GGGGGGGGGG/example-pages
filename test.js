@@ -8,7 +8,7 @@ background(200);
 /*pos.x=random(width);
 pos.y=random(height); */
 }
-function draw(){
+/*function draw(){
 ellipse(pos.x,pos.y,20,20);
 move();
 }
@@ -17,4 +17,4 @@ function move(){
   pos.y+=5;
 }
 function checkSides(){
-}
+}*/
