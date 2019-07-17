@@ -6,8 +6,8 @@ var tam=50;
 
 function setup(){
 createCanvas(windowWidth, windowHeight);
-  x=random(width);
-  y=random(width);
+  /*x=random(width);
+  y=random(width);*/
 }
 function draw(){
 background(200);
