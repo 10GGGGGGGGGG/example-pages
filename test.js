@@ -3,6 +3,7 @@ var y=0;*/
 
 function setup(){
 createCanvas(windowWidth, windowHeight);
+  background(200);
 /*x=random(width);
 y=random(height); */
 }
