@@ -2,7 +2,7 @@ var x=0;
 var y=0;
 
 function setup(){
-createCanvas(windowWidth, windowHeight);
+createCanvas(400, 400);
 /*x=random(width);
 y=random(height); */
 }
