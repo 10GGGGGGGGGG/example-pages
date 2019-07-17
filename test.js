@@ -1,12 +1,12 @@
-var x=0;
-var y=0;
+/*var x=0;
+var y=0;*/
 
 function setup(){
-createCanvas(400, 400);
+createCanvas(windowWidth, windowHeight);
 /*x=random(width);
 y=random(height); */
 }
-function draw(){
+/*function draw(){
 background(200);
 ellipse(x,y,20,20);
 move();
@@ -16,4 +16,4 @@ function move(){
   y+=2;
 }
 function checkSides(){
-}
+}*/
