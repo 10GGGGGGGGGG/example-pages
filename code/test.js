@@ -1,9 +1,14 @@
 var x=0;
 var y=0;
-var vx=4;
-var vy=4;
-var tam=50;
+var vx=3;
+var vy=3;
+var ancho=100;
+var alto=51;
+var img;
 
+function preload() {
+  img = loadImage('resources/DVD.png');
+}
 function setup(){
 createCanvas(windowWidth, windowHeight);
   x=random(width);
@@ -11,7 +16,7 @@ createCanvas(windowWidth, windowHeight);
 }
 function draw(){
 background(200);
-ellipse(x,y,tam,tam);
+image(img,x,y,ancho,alto);
 move();
 checkSides();
 }
@@ -20,10 +25,10 @@ function move(){
   y+=vy;
 }
 function checkSides(){
-  if(x>=width-tam/2||x<=tam/2){
+  if(x>=width-ancho||x<=0){
   vx=-vx;
   }
-  if(y>=height-tam/2||y<=tam/2){
+  if(y>=height-alto||y<=0){
   vy=-vy;
   }
 }
