@@ -40,7 +40,7 @@ y=random(height-alto);
 currentImg=random(images);
 }
 function draw(){
-background(200);
+background(0);
 image(currentImg,x,y,ancho,alto);
 move();
 checkSides();
