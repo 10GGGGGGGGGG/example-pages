@@ -1,12 +1,4 @@
-function setup(){
-createCanvas(windowWidth, windowHeight);
-  background(200);
-}
-
-
-
-
-/*var x=0;
+var x=0;
 var y=0;
 var vx=4;
 var vy=4;
@@ -28,10 +20,10 @@ function move(){
   y+=vy;
 }
 function checkSides(){
-  if(x>=width||x<=0){
+  if(x>=width-tam/2||x<=tam/2){
   vx=-vx;
   }
-  if(y>=width||y<=0){
+  if(y>=width-tam/2||y<=tam/2){
   vy=-vy;
   }
-}*/
+}
