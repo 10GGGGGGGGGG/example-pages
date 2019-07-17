@@ -1,20 +1,19 @@
-/*var pos{
-  x=0;
-  y=0;
-}*/
+var x=0;
+var y=0;
+
 function setup(){
 createCanvas(windowWidth, windowHeight);
 background(200);
-/*pos.x=random(width);
-pos.y=random(height); */
+/*x=random(width);
+y=random(height); */
 }
-/*function draw(){
-ellipse(pos.x,pos.y,20,20);
+function draw(){
+ellipse(x,y,20,20);
 move();
 }
 function move(){
-  pos.x+=5;
-  pos.y+=5;
+  x+=5;
+  y+=5;
 }
 function checkSides(){
-}*/
+}
