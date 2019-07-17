@@ -2,8 +2,8 @@ var x=0;
 var y=0;
 var vx=3;
 var vy=3;
-var ancho=100;
-var alto=51;
+var ancho=400;
+var alto=204;
 var img;
 
 function preload() {
