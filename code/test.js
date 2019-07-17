@@ -7,7 +7,7 @@ var alto=51;
 var img;
 
 function preload() {
-  img = loadImage('resources/DVD.png');
+  img = loadImage('code/resources/DVD.png');
 }
 function setup(){
 createCanvas(windowWidth, windowHeight);
