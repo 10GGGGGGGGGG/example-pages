@@ -1,7 +1,20 @@
+var pos{
+  x=0;
+  y=0;
+}
 function setup(){
-createCanvas(400, 400);
+createCanvas(windowWidth, windowHeight);
 background(200);
-ellipse(width/2,height/2,100,100);
-print("hey google");
-console.log("hey google");
+/*pos.x=random(width);
+pos.y=random(height); */
+}
+function draw(){
+ellipse(pos.x,pos.y,20,20);
+move();
+}
+function move(){
+  pos.x+=5;
+  pos.y+=5;
+}
+function checkSides(){
 }
