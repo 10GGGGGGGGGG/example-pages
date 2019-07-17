@@ -7,7 +7,7 @@ var tam=50;
 function setup(){
 createCanvas(windowWidth, windowHeight);
   x=random(width);
-  y=random(width);
+  y=random(height);
 }
 function draw(){
 background(200);
@@ -23,7 +23,7 @@ function checkSides(){
   if(x>=width-tam/2||x<=tam/2){
   vx=-vx;
   }
-  if(y>=width-tam/2||y<=tam/2){
+  if(y>=height-tam/2||y<=tam/2){
   vy=-vy;
   }
 }
