@@ -9,7 +9,7 @@ createCanvas(windowWidth, windowHeight);
   /*x=random(width);
   y=random(width);*/
 }
-function draw(){
+/*function draw(){
 background(200);
 ellipse(x,y,tam,tam);
 move();
@@ -26,4 +26,4 @@ function checkSides(){
   if(y>=width||y<=0){
   vy=-vy;
   }
-}
+}*/
